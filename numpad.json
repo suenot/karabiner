@@ -1,0 +1,215 @@
+{
+  "title": "numpad",
+  "rules": [
+    {
+      "description": "m to 0",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": ", to 1",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": ". to 2",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "/ to 3",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "k to 4",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "l to 5",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "; to 6",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "i to 7",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "o to 8",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "p to 9",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

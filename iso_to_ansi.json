@@ -2,7 +2,7 @@
   "title": "iso_to_ansi",
   "rules": [
     {
-      "description": "backslash + command = backslash",
+      "description": "backslash + left_command = backslash",
       "manipulators": [
         {
           "type": "basic",
@@ -10,7 +10,7 @@
             "key_code": "backslash",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"

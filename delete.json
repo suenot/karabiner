@@ -1,8 +1,8 @@
 {
-  "title": "delete",
+  "title": "delete = command/option + backspace",
   "rules": [
     {
-      "description": "delete",
+      "description": "delete = command/option + backspace",
       "manipulators": [
         {
           "type": "basic",

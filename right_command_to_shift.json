@@ -1,0 +1,27 @@
+{
+    "title": "right_command_to_shift",
+    "rules": [
+      {
+        "description": "right_command to shift",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "right_command",
+              "modifiers": {
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "left_shift"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}
+  

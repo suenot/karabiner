@@ -10,7 +10,7 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -29,7 +29,7 @@
             "key_code": "k",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -48,7 +48,7 @@
             "key_code": "i",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -67,7 +67,7 @@
             "key_code": "l",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -91,7 +91,7 @@
             "key_code": "u",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -115,7 +115,7 @@
             "key_code": "o",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -139,7 +139,7 @@
             "key_code": "p",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -163,7 +163,7 @@
             "key_code": "semicolon",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -187,7 +187,7 @@
             "key_code": "h",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -211,7 +211,7 @@
             "key_code": "y",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -235,7 +235,7 @@
             "key_code": "m",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"
@@ -259,7 +259,7 @@
             "key_code": "comma",
             "modifiers": {
               "mandatory": [
-                "command"
+                "left_command"
               ],
               "optional": [
                 "any"

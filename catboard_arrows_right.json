@@ -1,8 +1,8 @@
 {
-  "title": "catboard arrows",
+  "title": "catboard arrows right command",
   "rules": [
     {
-      "description": "ijkl_right_command",
+      "description": "ijkl",
       "manipulators": [
         {
           "type": "basic",
@@ -10,7 +10,7 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -29,7 +29,7 @@
             "key_code": "k",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -48,7 +48,7 @@
             "key_code": "i",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -67,7 +67,7 @@
             "key_code": "l",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "description": "home_left_command",
+      "description": "home",
       "manipulators": [
         {
           "type": "basic",
@@ -91,7 +91,7 @@
             "key_code": "u",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "description": "end_left_command",
+      "description": "end",
       "manipulators": [
         {
           "type": "basic",
@@ -123,7 +123,7 @@
             "key_code": "o",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "description": "page_up_right_command",
+      "description": "page_up",
       "manipulators": [
         {
           "type": "basic",
@@ -155,7 +155,7 @@
             "key_code": "p",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "description": "page_down_right_command",
+      "description": "page_down",
       "manipulators": [
         {
           "type": "basic",
@@ -179,7 +179,7 @@
             "key_code": "semicolon",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "description": "h->enter_right_command",
+      "description": "h->enter",
       "manipulators": [
         {
           "type": "basic",
@@ -203,7 +203,7 @@
             "key_code": "h",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "description": "y->escape_right_command",
+      "description": "y->escape",
       "manipulators": [
         {
           "type": "basic",
@@ -227,7 +227,7 @@
             "key_code": "y",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "description": "m->backspace_right_command",
+      "description": "m->backspace",
       "manipulators": [
         {
           "type": "basic",
@@ -251,7 +251,7 @@
             "key_code": "m",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "description": ",->delete_right_command",
+      "description": ",->delete",
       "manipulators": [
         {
           "type": "basic",
@@ -275,7 +275,7 @@
             "key_code": "comma",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "right_command"
               ],
               "optional": [
                 "any"

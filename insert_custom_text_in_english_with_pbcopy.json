@@ -1,0 +1,13 @@
+{
+    "description": "Insert custom text in English with pbcopy",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "slash",
+                "modifiers": { "mandatory": ["left_command"] }
+            },
+            "to": [{ "shell_command": "echo 'Read and be ./memory.md and ./memory_private.md, before responding modify your memory there to definitely remember what is important to remember and forget what definitely no longer needs to be remembered.' | pbcopy" }],
+            "type": "basic"
+        }
+    ]
+}

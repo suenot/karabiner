@@ -1,0 +1,17 @@
+# numpad
+# Generated from karabiner JSON: numpad.json
+# Save as ~/.config/xremap/config.yml fragment
+
+keymap:
+  - name: "numpad"
+    remap:
+      Alt-m: KP_0
+      Alt-comma: KP_1
+      Alt-period: KP_2
+      Alt-slash: KP_3
+      Alt-k: KP_4
+      Alt-l: KP_5
+      Alt-semicolon: KP_6
+      Alt-i: KP_7
+      Alt-o: KP_8
+      Alt-p: KP_9

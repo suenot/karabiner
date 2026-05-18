@@ -1,0 +1,23 @@
+;; catboard arrows right command
+;; Generated from karabiner JSON: catboard_arrows_right.json
+;; Run: kanata --cfg this-file.kbd
+
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  j k i l u o p scln h y m , rmet
+)
+
+(defalias
+  rmet-layer (tap-hold-release 200 200 rmet (layer-while-held right-command))
+)
+
+(deflayer base
+  j k i l u o p scln h y m , @rmet-layer
+)
+
+(deflayer right-command
+  left down up rght (multi lmet left) (multi lmet rght) pgup pgdn ret esc bspc del rmet
+)

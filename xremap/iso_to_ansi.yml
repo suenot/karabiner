@@ -1,0 +1,15 @@
+# iso_to_ansi
+# Generated from karabiner JSON: iso_to_ansi.json
+# Save as ~/.config/xremap/config.yml fragment
+
+modmap:
+  - name: "iso_to_ansi"
+    remap:
+      backslash: Return
+      grave: Shift_L
+      ISO_Level3_Shift: grave
+
+keymap:
+  - name: "iso_to_ansi"
+    remap:
+      Super-backslash: backslash

@@ -1,0 +1,19 @@
+# catboard arrows
+# Generated from karabiner JSON: catboard_arrows.json
+# Save as ~/.config/xremap/config.yml fragment
+
+keymap:
+  - name: "catboard arrows"
+    remap:
+      Super-j: Left
+      Super-k: Down
+      Super-i: Up
+      Super-l: Right
+      Super-u: Super-Left
+      Super-o: Super-Right
+      Super-p: Page_Up
+      Super-semicolon: Page_Down
+      Super-h: Return
+      Super-y: Escape
+      Super-m: BackSpace
+      Super-comma: Delete

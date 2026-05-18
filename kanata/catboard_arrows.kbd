@@ -1,0 +1,23 @@
+;; catboard arrows
+;; Generated from karabiner JSON: catboard_arrows.json
+;; Run: kanata --cfg this-file.kbd
+
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  j k i l u o p scln h y m , lmet
+)
+
+(defalias
+  lmet-layer (tap-hold-release 200 200 lmet (layer-while-held left-command))
+)
+
+(deflayer base
+  j k i l u o p scln h y m , @lmet-layer
+)
+
+(deflayer left-command
+  left down up rght (multi lmet left) (multi lmet rght) pgup pgdn ret esc bspc del lmet
+)

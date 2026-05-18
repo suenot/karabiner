@@ -1,0 +1,19 @@
+;; catboard arrows
+;; Generated from karabiner JSON: catboard_arrows.json
+;; Add to your kmonad config alongside an appropriate (defcfg ...).
+
+(defsrc
+  j k i l u o p scln h y m , lmet
+)
+
+(defalias
+  lmet-layer (tap-hold 200 lmet (layer-toggle left-command))
+)
+
+(deflayer base
+  j k i l u o p scln h y m , @lmet-layer
+)
+
+(deflayer left-command
+  lft down up rght (tap-macro lmet lft) (tap-macro lmet rght) pgup pgdn ret esc bspc del lmet
+)

@@ -1,0 +1,8 @@
+# caps_lock_to_left_shift
+# Generated from karabiner JSON: caps_lock_to_left_shift.json
+# Save as ~/.config/xremap/config.yml fragment
+
+modmap:
+  - name: "caps_lock_to_left_shift"
+    remap:
+      CapsLock: Shift_L

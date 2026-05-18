@@ -1,0 +1,23 @@
+;; iso_to_ansi
+;; Generated from karabiner JSON: iso_to_ansi.json
+;; Run: kanata --cfg this-file.kbd
+
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  \ grv 102d lmet
+)
+
+(defalias
+  lmet-layer (tap-hold-release 200 200 lmet (layer-while-held left-command))
+)
+
+(deflayer base
+  ret lsft grv @lmet-layer
+)
+
+(deflayer left-command
+  \ _ _ lmet
+)

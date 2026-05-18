@@ -1,0 +1,19 @@
+;; numpad
+;; Generated from karabiner JSON: numpad.json
+;; Add to your kmonad config alongside an appropriate (defcfg ...).
+
+(defsrc
+  m , . / k l scln i o p ralt
+)
+
+(defalias
+  ralt-layer (tap-hold 200 ralt (layer-toggle right-option))
+)
+
+(deflayer base
+  m , . / k l scln i o p @ralt-layer
+)
+
+(deflayer right-option
+  kp0 kp1 kp2 kp3 kp4 kp5 kp6 kp7 kp8 kp9 ralt
+)

@@ -1,0 +1,19 @@
+;; catboard arrows right command
+;; Generated from karabiner JSON: catboard_arrows_right.json
+;; Add to your kmonad config alongside an appropriate (defcfg ...).
+
+(defsrc
+  j k i l u o p scln h y m , rmet
+)
+
+(defalias
+  rmet-layer (tap-hold 200 rmet (layer-toggle right-command))
+)
+
+(deflayer base
+  j k i l u o p scln h y m , @rmet-layer
+)
+
+(deflayer right-command
+  lft down up rght (tap-macro lmet lft) (tap-macro lmet rght) pgup pgdn ret esc bspc del rmet
+)

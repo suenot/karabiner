@@ -1,0 +1,11 @@
+;; caps_lock_to_left_shift
+;; Generated from karabiner JSON: caps_lock_to_left_shift.json
+;; Add to your kmonad config alongside an appropriate (defcfg ...).
+
+(defsrc
+  caps
+)
+
+(deflayer base
+  lsft
+)

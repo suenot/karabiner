@@ -1,0 +1,15 @@
+;; caps_lock_to_left_shift
+;; Generated from karabiner JSON: caps_lock_to_left_shift.json
+;; Run: kanata --cfg this-file.kbd
+
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  caps
+)
+
+(deflayer base
+  lsft
+)

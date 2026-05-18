@@ -1,0 +1,23 @@
+;; numpad
+;; Generated from karabiner JSON: numpad.json
+;; Run: kanata --cfg this-file.kbd
+
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  m , . / k l scln i o p ralt
+)
+
+(defalias
+  ralt-layer (tap-hold-release 200 200 ralt (layer-while-held right-option))
+)
+
+(deflayer base
+  m , . / k l scln i o p @ralt-layer
+)
+
+(deflayer right-option
+  kp0 kp1 kp2 kp3 kp4 kp5 kp6 kp7 kp8 kp9 ralt
+)

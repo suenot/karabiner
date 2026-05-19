@@ -2,15 +2,18 @@
   "title": "numpad",
   "rules": [
     {
-      "description": "m to 0",
+      "description": "numpad_left_letters_right_command",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "m",
+            "key_code": "z",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -19,19 +22,17 @@
               "key_code": "keypad_0"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": ", to 1",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "comma",
+            "key_code": "x",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -40,19 +41,17 @@
               "key_code": "keypad_1"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": ". to 2",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "period",
+            "key_code": "c",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -61,19 +60,17 @@
               "key_code": "keypad_2"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "/ to 3",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "slash",
+            "key_code": "v",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -82,19 +79,17 @@
               "key_code": "keypad_3"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "k to 4",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "s",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -103,19 +98,17 @@
               "key_code": "keypad_4"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "l to 5",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "d",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -124,19 +117,17 @@
               "key_code": "keypad_5"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "; to 6",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "semicolon",
+            "key_code": "f",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -145,19 +136,17 @@
               "key_code": "keypad_6"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "i to 7",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "i",
+            "key_code": "w",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -166,19 +155,17 @@
               "key_code": "keypad_7"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "o to 8",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "o",
+            "key_code": "e",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
@@ -187,25 +174,118 @@
               "key_code": "keypad_8"
             }
           ]
-        }
-      ]
-    },
-    {
-      "description": "p to 9",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
-            "key_code": "p",
+            "key_code": "r",
             "modifiers": {
               "mandatory": [
-                "right_option"
+                "right_command"
+              ],
+              "optional": [
+                "any"
               ]
             }
           },
           "to": [
             {
               "key_code": "keypad_9"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_asterisk"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_hyphen"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_slash"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_plus"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_enter"
             }
           ]
         }

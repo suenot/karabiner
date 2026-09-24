@@ -101,14 +101,9 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": {
-                "mandatory": [
-                  "left_command"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         }
@@ -133,14 +128,9 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": {
-                "mandatory": [
-                  "left_command"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         }
